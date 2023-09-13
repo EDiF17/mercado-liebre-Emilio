@@ -16,10 +16,10 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-.logo{
+/* .logo{
     width: 50%;
     padding: 10px;
-}
+} */
 .top-header img {
     width: 35%;
 }
@@ -156,6 +156,7 @@ ul{
     nav{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .nav-off{
         display: flex;
@@ -235,4 +236,8 @@ ul{
     .nav-login, .nav-off{
         padding: 10px;
     }
+    .body-text{
+        text-align: center;
+    }
+    
 }
