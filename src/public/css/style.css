@@ -143,7 +143,11 @@ ul{
     top: -15px;
     color: #39b54a;
 }
-
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
 /*TABLET*/
 @media (min-width: 361px){
     article{

@@ -41,22 +41,39 @@
     </header>
             <form action="">
                 <label for="nombre">Nombre y Apellido</label>
-                <input type="text" name="nombre" id="nombre">
+                <input type="text" name="nombre" id="nombre" required>
                 <label for="usuario">Nombre de usuario</label>
-                <input type="text" name="usuario" id="usuario">
+                <input type="text" name="usuario" id="usuario" required>
+                <label for="email">Email</label>
+                <input type="emal" name="email" pattern="+@" id="email" required>
                 <label for="date">Fecha de nacimiento</label>
-                <input type="date" name="fecha-inicio" id="date" value="12/09/2023" min="01/01/1900" max="31/12/2004">
+                <input type="date" name="fecha-inicio" id="date" value="12/09/2023" min="01/01/1900" max="31/12/2004" required>
                 <label for="domicilio">Domicilio</label>
-                <input type="text" name="street" id="domicilio">
+                <input type="text" name="street" id="domicilio" required>
                 <label for="perfil-usuario">Perfil de usuario(comprar o vender)</label>
                 <label for="perfil-compra">Comprar</label>
-                <input type="radio" name="perfil" id="perfil-compra">
+                <input type="radio" name="perfil" id="perfil-compra" required>
                 <label for="perfil-compra">Vender</label>
-                <input type="radio" name="perfil" id="perfil-vender">
-                
+                <input type="radio" name="perfil" id="perfil-vender" required>
+                <label for="catInte">Categoria de interes(Puedes elegir mas de una)</label>
+                <label for="catElec">Electro</label>
+                <input type="checkbox" name="catInte" id="catElec" value="Electro">
+                <label for="catModa">Moda</label>
+                <input type="checkbox" name="catInte" id="catModa" value="Moda">
+                <label for="catHogar">Hogar</label>
+                <input type="checkbox" name="catInte" id="catHogar" value="Hogar">
+                <label for="catJugue">Juguetería</label>
+                <input type="checkbox" name="catInte" id="catJugue" value="Juguetería">
+                <label for="catVida">Vida Sana</label>
+                <input type="checkbox" name="catInte" id="catVida" value="Vida Sana">
+                <label for="imgPer">Selecciona una foto</label>
+                <input type="file" name="fotoPerfil" id="imgPer" accept="image/jpeg">
+                <label for="pass">Contraseña</label>
+                <input type="password" name="password" minlength="2" id="pass" required>
+                <label for="repPass">Repetir contraseña</label>
+                <input type="password" name="repPass" minlength="2" id="repPass" required>
 
 
-
                 <label for=""></label>
                 <input type="text" name="" id="">
                 <label for=""></label>
@@ -65,6 +82,8 @@
                 <input type="text" name="" id="">
                 <label for=""></label>
                 <input type="text" name="" id="">
+                <button type="reset" id="reset">Borrar</button>
+                <button type="submit" id="submit">Enviar</button>
             </form>
 
     <footer>
