@@ -152,20 +152,48 @@ form{
     max-width: 400px;
 }
 label{
-    padding: 5px;
+        padding: 10px 10px 10px 0px;
+        font-weight: bold;
+        font-size: 16px;
 }
 .formu{
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
-.cate{
+.formu-login{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
+    flex-direction: column;
+    margin: 10px;
+    width: 380px;
 }
+.cate{
+    display: inline-flex;
+    text-align: start;
+    padding: 20px;
+    flex-direction: column;
+}
+.cate input{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.bot-radio{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+}
+button:hover{
+    background-color: #0022AA;
+    color: yellow;
+    ;
+}
+/* input:required {
+    background-color: rgb(0, 255, 213);
+} */
 
 /*TABLET*/
 @media (min-width: 361px){
@@ -215,13 +243,14 @@ label{
     .section-title {
         margin-left: auto;
     }
-    .input{
-        width: 180px;
-        border-radius: 5px;
-    }
     .fa-id-card, .fa-sign-in-alt, .fa-shopping-basket{
         padding: 5px;
     }   
+    .main-form{
+        text-align: center;
+        justify-content: center;
+        background-color: #fff;
+    }
     /* .price{
         font-size: 18px;
         width: 30%;
