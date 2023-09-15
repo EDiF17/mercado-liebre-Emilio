@@ -144,10 +144,29 @@ ul{
     color: #39b54a;
 }
 form{
+    display: block;
+    margin: 5%;
+    padding-top: 5px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px; 
+    max-width: 400px;
+}
+label{
+    padding: 5px;
+}
+.formu{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    margin: 10px;
 }
+.cate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
 /*TABLET*/
 @media (min-width: 361px){
     article{
