@@ -418,6 +418,9 @@ button:hover{
         font-size: 25px;
         margin-left: 0%;
         }
+    nav{
+        margin-top: 50px;
+    }
     /* ARTICULOS  */
     section article{
         width: 24%;
